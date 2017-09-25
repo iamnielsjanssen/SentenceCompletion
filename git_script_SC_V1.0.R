@@ -145,7 +145,7 @@ anova(model1s, model7s)
 anova(model1i, model5i)
 
 # check condition index
-source("/Data/Dropbox/Documents/R_analyses/La_Laguna/Binomial reading/mer-utils.R") # from Florian Jaeger website
+source("mer-utils.R") # from Florian Jaeger website
 kappa.mer(model4) # condition index is 2.00
 
 # get p-values
